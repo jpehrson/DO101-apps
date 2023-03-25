@@ -17,6 +17,10 @@ app.get('/version', function(req, res) {
   res.send('Running OpenShift Local v2.15.0 and OpenShift v4.12.5!\n');
 });
 
+app.get('/avalanche', function(req, res) {
+  res.send('The Colorado Avalanche are Stanley Cup Champions!\n');
+});
+
 app.listen(8080, function () {
   console.log('Example app listening on port 8080!');
 });
